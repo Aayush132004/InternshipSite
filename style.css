@@ -1,0 +1,131 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+.container{
+    display:inline-block;
+    white-space:nowrap;
+    padding: 5px 20px;
+    animation: anime 5s linear infinite;
+}
+.container img{
+    display:inline-block;
+    height:20vh;
+    width:8vw;
+    margin:0px 70px;
+    object-fit:contain;
+    
+}
+   
+@keyframes anime{
+    from{
+        transform:translateX(0%);
+    }
+    to{
+        transform:translateX(calc(-100% - 21px));
+    }
+
+}
+
+
+._canvas_container{
+    z-index:48 !important;
+    pointer-events: none;
+
+}
+
+
+@media  (max-width: 600px){
+#nav-part1{
+
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+
+    }
+    #nav-part1 img{
+        position:relative;
+        top:40px;
+        left:7vw;
+    }
+    #nav-part1 h2{
+        opacity:0;
+    }
+#nav-part2{
+    opacity:0;
+}
+.page1 {
+    height:100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.page1-elem1 {
+ flex-direction: column;
+ 
+ justify-content: center;
+}
+.page1-elem2{
+    padding-top:20%;
+    position:absolute;
+    margin-top:60%;     
+}
+.page1-elem2 .hi{
+ padding-left:0%;
+ padding-right: 60%;
+ position:absolute;
+ left:3%;
+}
+.page1-elem2 .hi2{
+    padding-left:0%;
+    padding-right: 60%;
+    position:absolute;
+    left:35%;
+   }
+   
+.company{   
+    font-size:50px;
+}
+.student{
+    font-size:50px;
+}
+#companies-counter{
+    font-size:50px;
+}
+#students-counter{
+    font-size:50px;
+}
+.page2{
+    margin-top:60%;
+    height:100%;
+}
+.page3{
+    height:100%;
+}
+.contact{
+    margin-top:40%;
+    height:100%;
+}
+
+
+    
+
+
+}
+
+    
+
+
+
+    
+
+
+
+
